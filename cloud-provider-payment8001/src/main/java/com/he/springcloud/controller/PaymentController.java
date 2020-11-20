@@ -48,6 +48,16 @@ public class PaymentController {
         }
     }
 
+    @GetMapping("/payment/timeout")
+    public String paymentTimeout(){
+        try {
+            Thread.sleep(8);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return ServerPort;
+    }
+
     @GetMapping("/payment/discovery")
     public Object discovery(){
 //        获取已注册的微服务信息
