@@ -3,7 +3,7 @@ package com.he.springcloud.controller;
 
 import com.he.springcloud.entities.CommonResult;
 import com.he.springcloud.entities.Payment;
-import com.he.springcloud.server.PaymentFeignService;
+import com.he.springcloud.service.PaymentFeignService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
