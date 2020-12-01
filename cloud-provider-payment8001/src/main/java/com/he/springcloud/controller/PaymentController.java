@@ -58,6 +58,11 @@ public class PaymentController {
         return ServerPort;
     }
 
+    @GetMapping("/payment/lb")
+    public String getPaymentLB(){
+        return ServerPort;
+    }
+
     @GetMapping("/payment/discovery")
     public Object discovery(){
 //        获取已注册的微服务信息
