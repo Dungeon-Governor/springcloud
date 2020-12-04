@@ -16,6 +16,20 @@ spring:
           label: master
 #          username: 992374727@qq.com
 #          password: Heruijie2010
+#  rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+#暴露bus刷新配置端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+
 eureka:
   client:
     service-url:

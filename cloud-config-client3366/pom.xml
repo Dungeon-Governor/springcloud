@@ -3,9 +3,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.he.springcloud</groupId>
-    <artifactId>cloud-config-center3344</artifactId>
+    <artifactId>cloud-config-client3366</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-config-center3344</name>
+    <name>cloud-config-client3366</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -37,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -104,7 +104,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.2.2.RELEASE</version>
                 <configuration>
-                    <mainClass>com.he.springcloud.CloudConfigCenter334Application</mainClass>
+                    <mainClass>com.he.springcloud.CloudConfigClient3366Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
