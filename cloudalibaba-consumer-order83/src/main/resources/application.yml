@@ -1,0 +1,17 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 83
+
+# 应用名称
+spring:
+  application:
+    name: cloudalibaba-consumer-order83
+  # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+#消费者将要去访问的微服务提供者名称
+service-url:
+  nacos-user-service: http://cloudalibaba-provider-payment

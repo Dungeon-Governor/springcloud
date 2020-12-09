@@ -1,0 +1,19 @@
+# Nacos帮助文档: https://nacos.io/zh-cn/docs/concepts.html
+
+server:
+  port: 3377
+
+# Nacos认证信息
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.94.37.85:1111
+      config:
+#        设置配置中心服务端地址
+        server-addr: 47.94.37.85:1111
+        file-extension: yaml
+#        group: TEST_GROUP
+#        namespace: 2ddb7be0-4c1e-4932-a6b5-b64dabcfc3e5
