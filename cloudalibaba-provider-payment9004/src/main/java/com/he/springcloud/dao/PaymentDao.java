@@ -3,12 +3,12 @@ package com.he.springcloud.dao;
 import com.he.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
-//@Mapper
-//public interface PaymentDao {
-//
-//    public int create(Payment payment);
-//
-//    public Payment getPaymentById(@Param("id") long id);
-//
-//}
+@Mapper
+@Repository
+public interface PaymentDao {
+
+    Payment getPayment(@Param("id") Long id);
+
+}
