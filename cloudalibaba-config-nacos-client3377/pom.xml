@@ -100,7 +100,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.2.2.RELEASE</version>
                 <configuration>
-                    <mainClass>com.example.demo.CloudalibabaConfigNacosClient3377Application</mainClass>
+                    <mainClass>com.he.springcloud.CloudalibabaConfigNacosClient3377Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
